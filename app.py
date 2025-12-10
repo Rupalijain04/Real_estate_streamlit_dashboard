@@ -5,7 +5,7 @@ import seaborn as sns
  
 
 # Load cleaned data
-df = pd.read_csv("C:/Users/rupal/OneDrive/Desktop/Labmentix Internship/4th project - Real Estate Investment Advisor (12 Dec 2025)/Real_Estate_Project/data/cleaned_data1.csv")
+df = pd.read_csv("data/cleaned_data1.csv")
 
 
 # App title
@@ -71,4 +71,5 @@ if "Property_Type" in df.columns:
     sns.countplot(x=df["Property_Type"])
     plt.xticks(rotation=45)
     st.pyplot(fig3)
+
 
