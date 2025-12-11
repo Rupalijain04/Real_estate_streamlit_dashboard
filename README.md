@@ -19,6 +19,7 @@ The complete project is built using **Python**, and includes:
 | matplotlib | Data visualization |
 | seaborn | Statistical visualizations |
 | streamlit | Interactive dashboard creation |
+| plotly | For interactive charts |
 | VS Code | Code editor for development |
 
 # ✅ STEP 1: Data Preprocessing
